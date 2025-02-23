@@ -17,7 +17,7 @@
     flex: 1; 
     width: 100%;
     min-width: 200px; 
-    max-width: 450px; 
+    max-width: 500px; 
     padding: 5px 5px 0px 5px;
     border-radius: 5px;
     border: 1px solid ;
@@ -92,7 +92,7 @@
 /* Custom Fonts (from DaFont) */
 @font-face {
     font-family: 'Porscha';
-    src: url('/public/fonts/911porschav3bold.ttf') format('truetype');
+    src: url('/public/fonts/911porschav3cond.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -184,6 +184,124 @@
   @font-face {
     font-family: 'Coiny';
     src: url('/public/fonts/Coiny-Cyrillic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+  @font-face {
+    font-family: 'Glorify';
+    src: url('/public/fonts/Glorify SH Demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'LeJourSerif';
+    src: url('/public/fonts/Le Jour Serif Personal Use Only.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Bulagria';
+    src: url('/public/fonts/Bulagria.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'TightenCaps';
+    src: url('/public/fonts/TightenCaps-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SuperRich';
+    src: url('/public/fonts/SuperRichExpanded_PERSONAL_USE_ONLY - Stretch.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'RacingSport';
+    src: url('/public/fonts/RacingSportDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lovan';
+    src: url('/public/fonts/Lovan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Astonpoliz';
+    src: url('/public/fonts/Astonpoliz.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Psilograph';
+    src: url('/public/fonts/Psilograph-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Quicksilver';
+    src: url('/public/fonts/Quicksilver.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Bayside';
+    src: url('/public/fonts/BaysideFont-Regular-Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Notted';
+    src: url('/public/fonts/Notted.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'EastmanRoman';
+    src: url('/public/fonts/EastmanRomanTrial-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'DKlongreach';
+    src: url('/public/fonts/DK Longreach.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Cinematografica';
+    src: url('/public/fonts/Cinematografica-Regular-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Longhaul';
+    src: url('/public/fonts/Longhaul.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Evogria';
+    src: url('/public/fonts/Evogria.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Coluna';
+    src: url('/public/fonts/Coluna.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'BankPrinter';
+    src: url('/public/fonts/F25_Bank_Printer.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
