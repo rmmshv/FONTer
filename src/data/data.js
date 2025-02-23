@@ -113,7 +113,7 @@ const folors = {
         fontStyle: 'Regular',
       },
 
-
+      
 
       {
         firstRow: 'TAB',
