@@ -4,7 +4,7 @@ import './Body.css';
 import { folors } from "../data/data";
 
 const Body = () => {
-  const { fontsAndColors, firstRow, secondRow, thirdRow, randLorem } = folors;
+  const { fontsAndColors, secondRow, thirdRow, randLorem } = folors;
 
   // Refs for each row type
   const firstRowRefs = useRef([]);

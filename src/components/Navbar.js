@@ -20,7 +20,7 @@ const MobileMenu = (toggleTheme, theme) => {
                     </li>
                    
                     <li>
-                        <a onClick={toggleTheme}>
+                        <a href="/#" onClick={toggleTheme}>
                             {theme === 'light' ? (
                                 <MdNightlight className='icon' size={30} />
                             ) : (
@@ -46,7 +46,7 @@ const Navbar = ({ toggleTheme, theme }) => {
                 {MobileMenu(toggleTheme, theme)}
                 <ul className='nav-list'>
                     <li>
-                        <a onClick={toggleTheme}>
+                        <a href="/#" onClick={toggleTheme}>
                             {theme === 'light' ? (
                                 <MdNightlight className='icon' size={30} />
                             ) : (
