@@ -113,7 +113,7 @@ const folors = {
         fontStyle: 'Regular',
       },
 
-      
+
 
       {
         firstRow: 'TAB',
@@ -192,7 +192,7 @@ const folors = {
         secondRow: 'OCTOTHORPE',
         thirdRow: "DITTO WAH",
         randLorem: "Hint, story, wasp, name, casual, someone, manage, sudden, bid, family, crystal, offer",
-        fontName: 'LeJourSerif',
+        fontName: 'Carbon',
         fontStyle: 'Regular',
       },
       {
@@ -232,7 +232,7 @@ const folors = {
         secondRow: 'ELLIPSIS',
         thirdRow: "ALF MEOW YUM",
         randLorem: "Crisp, file, web, predict, fiction, access, diamond, earn, panda, train, gather, draft",
-        fontName: 'RacingSport',
+        fontName: 'RacingCar',
         fontStyle: 'Regular',
       },
       {
@@ -244,12 +244,12 @@ const folors = {
         fontStyle: 'Regular',
       },
       {
-        firstRow: 'GO',
+        firstRow: 'Psilograph',
         secondRow: 'RUN LINE',
         thirdRow: "DOT DOT DOT",
         randLorem: "Enrich, uncle, guide, cradle, blind, record, across, maze, offer, couch, inspire, gorilla",
-        fontName: 'Psilograph',
-        fontStyle: 'Italic',
+        fontName: 'ButlerStencil',
+        fontStyle: 'Regular',
       },
       {
         firstRow: 'ZAATAR',
@@ -264,7 +264,7 @@ const folors = {
         secondRow: 'SHASHLIK',
         thirdRow: "COAL COAL COAL",
         randLorem: "Prize, much, glide, outside, page, small, rigid, velvet, squeeze, brave, shuffle, grit",
-        fontName: 'Quicksilver',
+        fontName: 'GrandMalefic',
         fontStyle: 'Regular',
       },
     ],

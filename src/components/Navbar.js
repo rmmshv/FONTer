@@ -11,7 +11,7 @@ const MobileMenu = (toggleTheme, theme) => {
             <div className='mobile-menu-toggle' onClick={toggle}>
                 <MdMenu size={30} />
             </div>
-            {isOpen && (<div className='mobile-menu-content' onCLick={toggle}>
+            {isOpen && (<div className='mobile-menu-content' onClick={toggle}>
                 <ul>
                     <li>
                         <div className='mobile-menu-toggle-close'>
