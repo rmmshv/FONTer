@@ -1,0 +1,93 @@
+.folors {
+    margin-top: 2rem;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .container-grid {
+    margin-top: 1rem;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 15px;
+    justify-content: center; /* Centers items */
+  }
+
+  .container-grid .folor-card {
+    flex: 1; 
+    width: 100%;
+    min-width: 200px; 
+    max-width: 400px; 
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid ;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+  .container-grid .folor-card .bottom-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-top: 5px;
+    border-top: 1px solid; /* Line separating content from info */
+    width: 100%;
+  }
+
+  .container-grid .folor-card .bottom-info p {
+    font-size: 0.9rem;
+    margin: 4px 0;
+    text-align: left;
+  }
+
+  .container-grid .folor-card:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Typography */
+ .container-grid .folor-card .firstRow {
+    
+    font-weight: bold;
+    line-height: 1.0;
+    white-space: nowrap; /* Prevents breaking */
+}
+  
+.container-grid .folor-card .secondRow {
+    
+    line-height: 1.0;
+    white-space: nowrap;
+
+  }
+
+  .container-grid .folor-card .thirdRow {
+    
+    line-height: 1.0;
+    white-space: nowrap;
+  }
+
+  .container-grid .folor-card .randLorem {
+    line-height: 1.0;
+    padding: px;
+    padding-bottom: 40px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .container-grid .folor-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+  }
+  
+
+
+  

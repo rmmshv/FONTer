@@ -1,0 +1,27 @@
+:root {
+  --light-theme-background: #FAF7F2;
+  --light-theme-color: #25161B;
+  --dark-theme-background: #25161B;
+  --dark-theme-color: #FAF7F2;
+}
+
+.app {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+#light {
+  background-color: var(--light-theme-background);
+  color: var(--light-theme-color);
+}
+
+#dark {
+  background-color: var(--dark-theme-background);
+  color: var(--dark-theme-color);
+}
+
+main {
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+}
