@@ -21,7 +21,7 @@ const folors = {
         secondRow: 'EUROS',
         thirdRow: "POUNDS",
         randLorem: "Pottery, spell, praise, chronic-glance, settle, wine, sun, awake, picture, warm, erase",
-        fontName: '911Porscha',
+        fontName: 'Porscha',
         fontStyle: 'Bold',
       },
       {

@@ -91,9 +91,9 @@
 
 /* Custom Fonts (from DaFont) */
 @font-face {
-    font-family: '911Porscha';
+    font-family: 'Porscha';
     src: url('/public/fonts/911porschav3bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
   }
 
