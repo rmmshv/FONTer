@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer>
-            <p>Made by a dope ass bitch </p>
+            <p>Made!</p>
         </footer>
     );
 };

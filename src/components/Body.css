@@ -10,15 +10,15 @@
     flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr); 
     grid-gap: 15px;
-    justify-content: center; /* Centers items */
+    justify-content: center; 
   }
 
   .container-grid .folor-card {
     flex: 1; 
     width: 100%;
     min-width: 200px; 
-    max-width: 400px; 
-    padding: 5px;
+    max-width: 450px; 
+    padding: 5px 5px 0px 5px;
     border-radius: 5px;
     border: 1px solid ;
     text-align: center;
@@ -35,7 +35,7 @@
     justify-content: left;
     align-items: left;
     padding-top: 5px;
-    border-top: 1px solid; /* Line separating content from info */
+    border-top: 1px solid; 
     width: 100%;
   }
 
@@ -89,5 +89,102 @@
   }
   
 
+/* Custom Fonts (from DaFont) */
+@font-face {
+    font-family: '911Porscha';
+    src: url('/public/fonts/911porschav3bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
 
+  @font-face {
+    font-family: 'FatKat';
+    src: url('/public/fonts/Fat Kat - (Demo) hanscostudio.com.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'GrandParadiso';
+    src: url('/public/fonts/GrandParadiso-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'HeavyHeap';
+    src: url('/public/fonts/heavy heap rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'JapanRich';
+    src: url('/public/fonts/JapanRich-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Narnia';
+    src: url('/public/fonts/Narnia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Neon';
+    src: url('/public/fonts/Neon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'pinkoyablack';
+    src: url('/public/fonts/pincoyablack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'PowerPuffGirls';
+    src: url('/public/fonts/powerpuff girls font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Highrise';
+    src: url('/public/fonts/HighriseFont-Demo-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Sunwish';
+    src: url('/public/fonts/Sunwish Maverick.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rollergirls';
+    src: url('/public/fonts/ROLLERGI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Lemonmilk';
+    src: url('/public/fonts/LEMONMILK-RegularItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Coiny';
+    src: url('/public/fonts/Coiny-Cyrillic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
   
