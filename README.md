@@ -1,4 +1,4 @@
-####FONTer is a display of some of my favorite fonts for easy visual reference.
+#### FONTer is a display of some of my favorite fonts for easy visual reference.
 
 All fonts on FONTer are either completely free or free for non-commercial use.
 
