@@ -45,6 +45,8 @@
     text-align: left;
   }
 
+  
+
   .container-grid .folor-card:hover {
     transform: translateY(-5px);
   }

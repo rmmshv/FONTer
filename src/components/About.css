@@ -8,13 +8,13 @@
     height: 100%;
   }
   .about h1 {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: 0.1rem;
   }
   .about h2 {
-    font-size: 1.3rem;  
-    margin-bottom: 0.4rem;
+    font-size: 1.0rem;
+   
     font-weight: 400;
   }
   .about p {
@@ -35,11 +35,11 @@
   }
 
   .about .about-links h2 {
-      margin-right: 0.4rem;
+      margin-right: 0.7rem;
       font-weight: 500;
   }
   .about .about-links a {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 700;
     margin-right: 0.8rem;
     text-decoration: none;
@@ -58,3 +58,5 @@
       font-size: 1rem;
     }
   }
+
+  

@@ -3,8 +3,8 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 1.6rem 0;
-    margin-bottom: 1.5rem;
+    padding-top: 2.0rem ;
+    margin-bottom: 0.8rem;
   }
   
   .nav-list {
@@ -42,17 +42,11 @@
     font-size: 1.8rem;
     font-weight: 700;
     cursor: pointer;
-    -webkit-transition: 1s ease-in-out;
-    -moz-transition: 1s ease-in-out;
-    -o-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
+    
+    transition: all 0.2s ease-in-out;
   }
   .logo h1:hover {
-    -webkit-transform: rotate(360deg) scale(1);
-    -moz-transform: rotate(360deg) scale(1);
-    -o-transform: rotate(360deg) scale(1);
-    -ms-transform: rotate(360deg) scale(1);
-    transform: rotate(360deg) scale(1);
+    transform: translateX(-5px);
   }
   
   /* mobile menu */

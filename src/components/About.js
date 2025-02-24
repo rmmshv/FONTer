@@ -1,10 +1,11 @@
-import React from 'react';
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import React, { useState } from 'react';
+import { FaGithub, FaLinkedinIn, FaHeart } from "react-icons/fa";
 import { about } from '../data/data';
 import './About.css';
 
 const About = () => {
     const {title, description, meInfo, github, linkedin} = about;
+
 
     return (
         <section className='about' id='about'>
@@ -13,12 +14,13 @@ const About = () => {
             <div className='about-links'>
                 <h2>{meInfo}</h2>
                 <a href={github} target='_blank' rel="noreferrer">
-                    <FaGithub className='icon' size={30} />
+                    <FaGithub className='icon' size={20} />
                 </a>
                 <a href={linkedin} target='_blank' rel="noreferrer">
-                    <FaLinkedinIn className='icon' size={30} />
+                    <FaLinkedinIn className='icon' size={20} />
                 </a>
             </div>
+            
         </section>
     );
 };

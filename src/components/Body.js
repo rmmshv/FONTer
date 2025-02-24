@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { FaHeart } from "react-icons/fa";
 import fitty from 'fitty';
 import './Body.css';
 import { folors } from "../data/data";
@@ -11,6 +12,8 @@ const Body = () => {
   const secondRowRefs = useRef([]);
   const thirdRowRefs = useRef([]);
   const randLoremRefs = useRef([]);
+
+ 
 
   useEffect(() => {
     // Apply fitty to each set of text elements
@@ -61,6 +64,7 @@ const Body = () => {
               <p className="font-name">Font: {folor.fontName}</p>
               <p className="font-style">Style: {folor.fontStyle}</p>
             </div>
+            
           </article>
         ))}
       </div>
