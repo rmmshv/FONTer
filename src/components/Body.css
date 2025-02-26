@@ -33,8 +33,9 @@
   .container-grid .folor-card .bottom-info {
     display: flex;
     flex-direction: column; /* Keeps "Font" and "Style" on separate lines */
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
     padding-top: 5px;
     border-top: 1px solid;
     width: 100%;
@@ -45,15 +46,6 @@
     margin: 2px 0;
     text-align: left;
 }
-
-.container-grid .folor-card .bottom-info a {
-    text-align: left;
-    align-self: flex-start; /* Aligns the link to the right */
-    margin-top: 5px; /* Optional: Adds space between the last text and the link */
-}
-
-
-  
 
   .container-grid .folor-card:hover {
     transform: translateY(-5px);
@@ -78,7 +70,7 @@
 
   .container-grid .folor-card .randLorem {
     
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     text-align: left;
     white-space: nowrap;
   }
