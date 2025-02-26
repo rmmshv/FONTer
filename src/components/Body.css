@@ -12,6 +12,7 @@
     grid-gap: 15px;
     justify-content: center; 
   }
+  
 
   .container-grid .folor-card {
     flex: 1; 
@@ -31,19 +32,26 @@
   }
   .container-grid .folor-card .bottom-info {
     display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    flex-direction: column; /* Keeps "Font" and "Style" on separate lines */
+    justify-content: flex-start;
+    align-items: flex-start;
     padding-top: 5px;
-    border-top: 1px solid; 
+    border-top: 1px solid;
     width: 100%;
-  }
+}
 
-  .container-grid .folor-card .bottom-info p {
+.container-grid .folor-card .bottom-info p {
     font-size: 0.9rem;
-    margin: 4px 0;
+    margin: 2px 0;
     text-align: left;
-  }
+}
+
+.container-grid .folor-card .bottom-info a {
+    text-align: left;
+    align-self: flex-start; /* Aligns the link to the right */
+    margin-top: 5px; /* Optional: Adds space between the last text and the link */
+}
+
 
   
 
@@ -70,7 +78,6 @@
 
   .container-grid .folor-card .randLorem {
     
-    padding: px;
     padding-bottom: 40px;
     text-align: left;
     white-space: nowrap;
@@ -124,7 +131,7 @@
   }
 
   @font-face {
-    font-family: 'pinkoyablack';
+    font-family: 'pincoyablack';
     src: url('/public/fonts/pincoyablack.otf') format('opentype');
   }
 
@@ -198,7 +205,7 @@
     src: url('/public/fonts/Notted.ttf') format('truetype');
   }
   @font-face {
-    font-family: 'EastmanRoman';
+    font-family: 'Eastman';
     src: url('/public/fonts/EastmanRomanTrial-Bold.otf') format('opentype');
   }
   @font-face {
@@ -240,7 +247,6 @@
     font-family: 'ButlerStencil';
     src: url('/public/fonts/ButlerStencil.woff') format('woff');
   }
-
 
   @font-face {
     font-family: 'RacingCar';
