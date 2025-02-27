@@ -1,10 +1,15 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    font-family: "Porscha";
     flex-direction: row;
     align-items: center;
     padding-top: 2.0rem ;
     margin-bottom: 0.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 1px 0px ;
   }
   
   .nav-list {
@@ -20,7 +25,7 @@
     align-items: center;
     justify-content: center;
     padding: 0.5rem 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 500;
     cursor: pointer;
   }
@@ -47,6 +52,19 @@
   }
   .logo h1:hover {
     transform: translateX(-5px);
+  }
+  .nav-list a.active {
+    border: 1px solid;
+    padding: 0px 6px ;
+    border-radius: 5px;
+  }
+  
+  .nav-list button {
+    
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
   }
   
   /* mobile menu */

@@ -85,6 +85,81 @@
     transition: all 0.2s ease-in-out;
   }
   
+  /* Color boxes */
+  
+  .color-card {
+    flex: 1; 
+    width: 100%;
+    margin-top: 1rem;
+    min-width: 200px; 
+    max-width: 500px; 
+    min-height: 510px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .color-box {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid;
+    position: relative;
+  }
+  
+  .color-code {
+    display: none; /* hide initially */
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: white;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .color-code:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* darken on hover */
+  }
+  
+  .color-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .color-box:hover .color-code {
+    display: block; /* show color hex on hover */
+  }
+  
+  .color-card .bottom-info {
+    text-align: left;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .color-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .color-card .bottom-info p {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-top: 5px;
+    border-top: 1px solid;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
 
 /* Custom Fonts (from DaFont) */
 @font-face {

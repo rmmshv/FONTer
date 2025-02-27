@@ -1,9 +1,28 @@
 const about = {
-    title: "Curated font & color [coming soon] collection.",
+    title: "Curated font & color palette collection.",
     description: "",
     meInfo: "Find me > ",
     github: "https://github.com/rmmshv/FONTer",
     linkedin: "https://www.linkedin.com/in/rmmshv",
+};
+
+const colorsData = [
+    ["#844d36", "#474853", "#86b3d1", "#aaa0a0", "#8e8268","Deep Vintage Lounge"],
+    ["#f0efeb", "#b294a0", "#c2ccd6", "#7c8d7d", "#d9966e","Warm Spring", ],
+    ["#B6CBBD", "#754E1A", "#CBA35C", "#F8E1B7", "#560D0D","Icecream Lux",],
+    ["#d79922", "#efe2ba", "#f13c20", "#4056a1", "#c5cbe3","Golden Dutch",],
+    ["#244855", "#e64833", "#874f41", "#9daead", "#fbe9d0","Terracotta Blue",],
+    ["#4285f4", "#5c2018", "#bc4639", "#d4a59a", "#f3e0dc","Blueberry Red", ],
+    ["#e43d12", "#d6536d", "#ffa2b6", "#efb11d", "#ebe9e1","Calm Vibrant", ],
+    ["#faed26", "#48344e", "#5a5560", "#9d8d8f", "#9b786f","Canary Accent",],
+    ["#d9b061", "#d9c4a9", "#d8d0c5", "#8d6f57", "#3f0d0c", "Affogato",],
+    ["#141414", "#273db4", "#c50900", "#f95ca4", "#ed7845","Gradient Pop",],
+];
+
+const colorsCollection = {
+    colors: colorsData.map(([color1, color2, color3, color4, color5, name, ], index) => ({
+        id: index + 1, color1, color2, color3, color4, color5, name
+    }))
 };
 
 const fontsAndColorsData = [
@@ -143,4 +162,4 @@ const folors = {
     }))
 };
 
-export { about, folors };
+export { about, folors, colorsCollection };
