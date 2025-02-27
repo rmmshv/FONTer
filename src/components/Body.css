@@ -132,7 +132,9 @@
   }
   
   .color-box:hover {
-    transform: translateY(-5px);
+    /*transform: translateY(-5px);*/
+    transition: height 0.3s ease;
+    height: 100px;
   }
   
   .color-box:hover .color-code {
