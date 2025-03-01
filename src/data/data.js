@@ -17,6 +17,11 @@ const colorsData = [
     ["#faed26", "#48344e", "#5a5560", "#9d8d8f", "#9b786f","Canary Accent",],
     ["#d9b061", "#d9c4a9", "#d8d0c5", "#8d6f57", "#3f0d0c", "Affogato",],
     ["#141414", "#273db4", "#c50900", "#f95ca4", "#ed7845","Gradient Pop",],
+    ["#24222d", "#7b3947", "#9D90A6", "#a59a7e", "#9c7379","Warm Worm",],
+    ["#360c20", "#cee24b", "#ad6ef1", "#db643a", "#f7f0fe","Low Saturation",],
+    ["#875871", "#7a8c76", "#E4DECB", "#df6945", "#507276","Local Co-op",],
+    ["#030432", "#f2a249", "#ffffff", "#0e285c", "#4f4f6e","Deep Blues",],
+    ["#17064a", "#e55636", "#fffdf0", "#A7752E", "#7B8695","Mustang",],
 ];
 
 const colorsCollection = {
@@ -54,7 +59,7 @@ const fontsAndColorsData = [
      "Empty, fire, loyal, nation, unit, shadow, brown, night, vehicle, powder, hint, oppose",
     "https://www.dafont.com/neon-80s.font"],
 
-    ["STEAK", "BULL", "APOSTROPHE", "HeavyHeap", "Regular", 
+    ["STEAK", "BULL", "APOSTROPHE", "HeavyHeap", "Bold", 
      "Lorizzle, ipsizzle, dolizzle, sit-amizzle, brizzle, elizzle",
     "https://www.dafont.com/heavy-heap.font"],
 
@@ -66,7 +71,7 @@ const fontsAndColorsData = [
      "Food, draft, forest, also, onion, doctor, scene, silk, scrap, scorpion, depth, want",
     "https://www.dafont.com/lemon-milk.font"],
 
-    ["WHO", "FIVE", "DOCTOR WOLF ROSE", "pincoyablack", "Regular", 
+    ["WHO", "FIVE", "DOCTOR WOLF ROSE", "pincoyablack", "Bold", 
      "Defy, nose, slight, network, copy, decide, creek, grid, brass, burst, real, pair",
     "https://www.dafont.com/pincoyablack.font"],
 
@@ -74,7 +79,7 @@ const fontsAndColorsData = [
      "Diesel, bag, chapter, screen, infant, soon, settle, victory, two, tomato, detail, faith",
     "https://www.dafont.com/highrise.font"],
 
-    ["DASH", "CRATORS", "ROCK N ROLL", "Coiny", "Regular", 
+    ["DASH", "CRATORS", "ROCK N ROLL", "Coiny", "Bold", 
      "Crisp, file, web, predict, fiction, access, diamond, earn, panda, train, gather, draft",
     "https://www.dafont.com/coiny.font"],
 
@@ -82,7 +87,7 @@ const fontsAndColorsData = [
      "Circle, adapt, lizard, genre, layer, curious, labor, radar, ginger, file, tray, arctic",
     "https://www.dafont.com/astonpoliz.font"],
 
-    ["HASH", "PROGRAM", "BEEPING BUZZ", "Bayside", "Regular", 
+    ["HASH", "PROGRAM", "BEEPING BUZZ", "Bayside", "Bold", 
      "Cave, squirrel, welcome, buddy, alter, shallow, joy, science, shoot, when, action, record",
     "https://www.dafont.com/bayside.font"],
 
@@ -102,7 +107,7 @@ const fontsAndColorsData = [
      "Bullet, rail, flip, loyal, fire, symbol, jelly, wire, indoor, weasel, immune, drastic",
     "https://www.dafont.com/eastman.font"],
 
-    ["POW", "FREE SOURCE", "AMPERSAND AND", "Evogria", "Regular", 
+    ["POW", "FREE SOURCE", "AMPERSAND AND", "Evogria", "Bold", 
      "Door, antenna, pipe, add, unit, fabric, tattoo, toe, join, cook, eyebrow, cheap",
     "https://www.dafont.com/evogria.font"],
 
@@ -114,7 +119,7 @@ const fontsAndColorsData = [
      "Voyage, private, coil, display, interest, animal, rigid, convince, empty, garage, youth, present",
     "https://www.dafont.com/glorify-sh.font"],
 
-    ["HAY", "OCTOTHORPE", "DITTO WAH", "Carbon", "Regular", 
+    ["HAY", "OCTOTHORPE", "DITTO WAH", "Carbon", "Bold", 
      "Hint, story, wasp, name, casual, someone, manage, sudden, bid, family, crystal, offer",
     "https://www.dafont.com/carbon.font"],
 
@@ -122,11 +127,11 @@ const fontsAndColorsData = [
      "Banana, desert, category, mom, noodle, couple, beauty, jungle, master, index, certain",
     "https://www.dafont.com/lovan.font"],
 
-    ["YARN", "CLOUDY", "GIT HERO", "Longhaul", "Regular", 
+    ["YARN", "CLOUDY", "GIT HERO", "Longhaul", "Bold", 
      "Lucky, radio, magic, slight, card, frog, motion, gate, sand, region, hip, actor",
     "https://www.dafont.com/longhaul.font"],
 
-    ["WATER", "RETURN", "KNOW TAB CAPS", "pincoyablack", "Regular", 
+    ["WATER", "RETURN", "KNOW TAB CAPS", "pincoyablack", "Bold", 
      "Exhibit, action, upper, month, vast, where, hamster, crack, loop, legend, asset, punch",
     "https://www.dafont.com/pincoyablack.font"],
 
@@ -139,7 +144,7 @@ const fontsAndColorsData = [
      "Crisp, file, web, predict, fiction, access, diamond, earn, panda, train, gather, draft",
     "https://www.dafont.com/racing-car.font"],
 
-    ["BOO!", "PERCENT", "OUCH", "Quicksilver", "Regular", 
+    ["BOO!", "PERCENT", "OUCH", "Quicksilver", "Bold", 
      "Survey, spray, together, shuffle, evoke, scrap, legend, rival, tunnel, entry, photo, wagon",
     "https://www.dafont.com/quicksilver-3.font"],
 
