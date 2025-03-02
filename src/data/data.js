@@ -20,8 +20,12 @@ const colorsData = [
     ["#24222d", "#7b3947", "#9D90A6", "#a59a7e", "#9c7379","Warm Worm",],
     ["#360c20", "#cee24b", "#ad6ef1", "#db643a", "#f7f0fe","Low Saturation",],
     ["#875871", "#7a8c76", "#E4DECB", "#df6945", "#507276","Local Co-op",],
-    ["#030432", "#f2a249", "#ffffff", "#0e285c", "#4f4f6e","Deep Blues",],
+    ["#030432", "#f2a249", "#4f4f6e", "#0e285c", "#ffffff","Deep Blues",],
     ["#17064a", "#e55636", "#fffdf0", "#A7752E", "#7B8695","Mustang",],
+    ["#e0b81f", "#bfabcc", "#00592e", "#a10b2b", "#ebe9e1","338",],
+    ["#362304", "#522000", "#651300", "#d0b9a7", "#4F3D00","Vandyke Tobacco",],
+    ["#636b2f", "#bac095", "#d4de95", "#2d4127", "#7c9898","Moss",],
+    ["#f6aa1c", "#bc3908", "#941b0c", "#621708", "#220901","Blood Orange",],
 ];
 
 const colorsCollection = {
