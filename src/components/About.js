@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedinIn, FaHeart } from "react-icons/fa";
+import { Github, Linkedin } from 'lucide-react';
 import { about } from '../data/data';
 import './About.css';
 
@@ -14,10 +15,10 @@ const About = () => {
             <div className='about-links'>
                 <h2>{meInfo}</h2>
                 <a href={github} target='_blank' rel="noreferrer">
-                    <FaGithub className='icon' size={20} />
+                    <Github className='icon' size={25} />
                 </a>
                 <a href={linkedin} target='_blank' rel="noreferrer">
-                    <FaLinkedinIn className='icon' size={20} />
+                    <Linkedin className='icon' size={25} />
                 </a>
             </div>
             

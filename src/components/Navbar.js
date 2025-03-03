@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { MdLightMode, MdNightlight, MdMenu, MdClose } from 'react-icons/md';
+import { Sun, MoonStar } from 'lucide-react';
 import { useNavigate, NavLink } from 'react-router-dom'; // Import NavLink for active styles
 
 // MobileMenu Component
@@ -42,9 +43,9 @@ const MobileMenu = ({ toggleTheme, theme }) => {
                         <li>
                             <button onClick={toggleTheme}>
                                 {theme === 'light' ? (
-                                    <MdNightlight className='icon' size={30} />
+                                    <Sun className='icon' size={30} />
                                 ) : (
-                                    <MdLightMode className='icon' size={30} />
+                                    <MoonStar className='icon' size={30} />
                                 )}
                             </button>
                         </li>
@@ -93,9 +94,9 @@ const Navbar = ({ toggleTheme, theme }) => {
                     <li>
                         <button onClick={handleToggleTheme}>
                             {theme === 'light' ? (
-                                <MdNightlight className='icon' size={30} />
+                                <MoonStar className='icon' size={30} />
                             ) : (
-                                <MdLightMode className='icon' size={30} />
+                                <Sun className='icon' size={30} />
                             )}
                         </button>
                     </li>
