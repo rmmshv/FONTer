@@ -42,6 +42,7 @@ const App = () => {
         </Router>
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 };
