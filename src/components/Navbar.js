@@ -71,7 +71,7 @@ const Navbar = ({ toggleTheme, theme }) => {
         <header>
             <nav className='navbar'>
                 <div className='logo'>
-                    <h1>{logo}</h1>
+                    <a href="/"><h1>{logo}</h1></a>
                 </div>
                 {MobileMenu({ toggleTheme: handleToggleTheme, theme })} {/* Pass the updated handleToggleTheme */}
                 <ul className='nav-list'>

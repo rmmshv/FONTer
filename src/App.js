@@ -5,6 +5,7 @@ import Body from './components/Body';
 import Footer from './components/Footer';
 import Colors from './components/Colors';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react";
 import './App.css';
 
 const App = () => {
